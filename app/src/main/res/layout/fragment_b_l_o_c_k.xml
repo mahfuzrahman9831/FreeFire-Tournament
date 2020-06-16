@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="23dp"
+    tools:context=".BLOCK">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#BF394A44"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <EditText
+            android:id="@+id/blockUserEditTextId"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="Enter User Name"
+            android:textColorHint="#C1FBE6E6" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:text="Current Status :" />
+
+    </LinearLayout>
+
+</FrameLayout>

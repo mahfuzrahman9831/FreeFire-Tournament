@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="23dp"
+    tools:context=".ROOM_ID">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_gravity="center"
+        android:background="#BF394A44"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <EditText
+            android:id="@+id/cardNumberEditTextId"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:hint="Enter Card Number"
+            android:textColorHint="#C1FBE6E6" />
+
+        <EditText
+            android:id="@+id/matchNameEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Match Name"
+            android:textColorHint="#C1FBE6E6" />
+
+        <EditText
+            android:id="@+id/roomIdEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Room Id"
+            android:textColorHint="#C1FBE6E6" />
+
+        <EditText
+            android:id="@+id/passwordEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:textColorHint="#C1FBE6E6" />
+
+        <Button
+            android:id="@+id/updateButtonId"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_shape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
